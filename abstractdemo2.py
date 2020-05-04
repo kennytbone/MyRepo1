@@ -26,6 +26,9 @@ class Rectangle(Shape):
     def area(this):
         return this.length * this.breadth
 
+class test(this):
+    pass
+
 shape = Circle(10)
 shape.draw()
 print("Area of circle is " ,shape.area())
